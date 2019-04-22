@@ -10,7 +10,7 @@
 	}
 </script>
 
-<style>
+<style scoped="scoped">
 .footer{
 	width: 100%;
 	height: 36px;

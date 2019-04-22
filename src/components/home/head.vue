@@ -10,7 +10,7 @@
 				</ul>
 				<div class="right">
 					<dl>
-						<dt @click="gologin"><a href="javascript:;">登录</a></dt>
+						<dt @click="lordregisterknow"><a href="javascript:;">登录</a></dt>
 						
 					</dl>
 					<dl>
@@ -62,9 +62,10 @@
 			gopassengerregster(){
 				this.$router.push({path:'/passengerregster'})
 			},
-			gologin(){
-				this.$router.push({path:'/login'})
+			lordregisterknow(){
+				this.$router.push({path:'/lordregisterknow'})
 			}
+			
 		}
 	}
 </script>

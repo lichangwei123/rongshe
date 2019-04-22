@@ -9,6 +9,8 @@ import Login from '@/views/login.vue'
 import community from '@/views/community.vue'
 import landlord from '@/views/landlord.vue'
 import tenant from '@/views/tenant.vue'
+import resetpassword from '@/views/resetpassword.vue'
+import lordregisterknow from '@/views/lordregisterknow.vue'
 
 Vue.use(Router)
 
@@ -25,6 +27,16 @@ export default new Router({
       path: '/community',
       name: 'community',
       component: community
+    },
+    {
+      path: '/lordregisterknow',
+      name: 'lordregisterknow',
+      component: lordregisterknow
+    },
+      {
+      path: '/resetpassword',
+      name: 'resetpassword',
+      component: resetpassword
     },
     {
       path: '/landlord',

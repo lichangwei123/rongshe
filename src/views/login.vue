@@ -29,9 +29,9 @@
 						<form method="post" action="" class="login-from" id="login">
 								<p><input type="text" placeholder="账号" class="username txt" name="username" autocomplete="off"></p>
 								<p><input type="password" placeholder="密码" class="password txt" name="password" autocomplete="off"></p>
-								<p class="clearfix"><input type="text" maxlength="6" name="code" class="code" placeholder=" 请输入验证码" autocomplete="off"><span class="auth-code">验</span></p>
+								<p class="clearfix"><input type="text" maxlength="6" name="code" class="code" placeholder=" 请输入验证码" autocomplete="off"><span class="auth-code">验证码</span></p>
 								<p><input type="button" class="submit" id="submitLogin" value="登录" /></p>
-								<p><a href="javascript:;" class="forgetpassword">忘记密码?</a><a href="javascript:;" class="clickreg">还没有账号,点击注册</a></p>
+								<p><a href="javascript:;" class="forgetpassword" @click="goresetpassword">忘记密码?</a><a href="javascript:;" class="clickreg" @click="gopassengerregster">还没有账号,点击注册</a></p>
 						</form>
 					</div>
 					<!--房东登录-->
@@ -44,7 +44,7 @@
 								<p><input type="password" placeholder="密码" class="password txt" name="password" autocomplete="off"></p>
 								<p class="clearfix"><input type="text" maxlength="6" name="code" class="code" placeholder=" 请输入验证码" autocomplete="off"><span class="auth-code">验证码</span></p>
 								<p><input type="button" class="submit" id="submitLogin" value="登录" /></p>
-								<p><a href="javascript:;" class="forgetpassword">忘记密码?</a><a href="javascript:;" class="clickreg">还没有账号,点击注册</a></p>
+								<p><a href="javascript:;" class="forgetpassword" @click="goresetpassword">忘记密码?</a><a href="javascript:;" class="clickreg" @click="golandlordregister">还没有账号,点击注册</a></p>
 						</form>
 					</div>
 					
@@ -85,6 +85,17 @@ import Footer from '@/components/common/footer.vue'
 
 				this.$router.push({path:'/'})
 				
+			},
+			gopassengerregster(){
+				this.$router.push({path:'/passengerregster'})
+			},
+			golandlordregister(){
+
+				this.$router.push({path:'/landlordregister'})
+			},
+			goresetpassword(){			
+
+				this.$router.push({path:'/resetpassword'})				
 			}
 		}
 	}
