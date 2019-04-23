@@ -17,7 +17,7 @@
 	import Nava from "@/components/community/nava.vue"
 	import Banner from "@/components/community/banner.vue"
 	import Articles from "@/components/community/articles.vue"
-		import tenFooter from "@/components/common/tenFooter.vue"
+	import tenFooter from "@/components/common/tenFooter.vue"
 	export default{
 		components:{
 			Top,
@@ -40,6 +40,7 @@ a{
 li{
     list-style: none;
 }
+
 /*头部*/
 .top{
     width: 100%;

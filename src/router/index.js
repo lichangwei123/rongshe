@@ -11,7 +11,7 @@ import landlord from '@/views/landlord.vue'
 import tenant from '@/views/tenant.vue'
 import resetpassword from '@/views/resetpassword.vue'
 import lordregisterknow from '@/views/lordregisterknow.vue'
-
+import separate from '@/views/separate.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -29,10 +29,15 @@ export default new Router({
       component: community
     },
     {
-      path: '/lordregisterknow',
-      name: 'lordregisterknow',
-      component: lordregisterknow
+      path: '/separate',
+      name: 'separate',
+      component: separate
     },
+		{
+		  path: '/lordregisterknow',
+		  name: 'lordregisterknow',
+		  component: lordregisterknow
+		},
       {
       path: '/resetpassword',
       name: 'resetpassword',
