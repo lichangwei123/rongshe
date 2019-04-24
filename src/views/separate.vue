@@ -328,10 +328,44 @@
 	    width: 310px;
 	    height:233px;
 		margin-top: 20px;
+		position: relative;
 	}
 	.tourism .tourism-c .apartment ul li img{
 		width: 310px;
 		height: 233px;
+	}
+	.tourism .tourism-c .apartment ul li span{
+		position: absolute;
+		display: block;
+		width: 120px;
+		height:40px;
+		background: #EA614A;
+		opacity: .6;
+		left:50%;
+		top:50%;
+		margin-left:-60px;
+		margin-top:-20px;
+		color:rgba(255,255,255,1);
+		line-height: 40px;
+		text-align: center;
+	}
+	.tourism .tourism-c .apartment ul li p{
+		width:70px;
+		border:15px solid #EA614A;
+		border-right:15px solid transparent;
+		position: absolute;
+		margin-top:-208px;
+		opacity: .6;
+	}
+	.tourism .tourism-c .apartment ul li p b{
+		position: absolute;
+		margin:-15px 0 0 -15px;
+		width:95px;
+		height:30px;
+		line-height: 30px;
+		background:transparent;
+		padding-left:5px;
+		color:#fff;
 	}
 	.tourism .tourism-c .article{
 	    float: right;

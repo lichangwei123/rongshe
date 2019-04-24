@@ -281,6 +281,24 @@ li{
 	line-height: 40px;
 	text-align: center;
 }
+.tenant .tenant-c .apartment ul li p{
+	width:70px;
+	border:15px solid #EA614A;
+	border-right:15px solid transparent;
+	position: absolute;
+	margin-top:-187px;
+	opacity: .6;
+}
+.tenant .tenant-c .apartment ul li p b{
+	position: absolute;
+	margin:-15px 0 0 -15px;
+	width:95px;
+	height:30px;
+	line-height: 30px;
+	background:transparent;
+	padding-left:5px;
+	color:#fff;
+}
 /*页脚*/
 
 

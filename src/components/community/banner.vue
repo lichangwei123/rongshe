@@ -1,6 +1,6 @@
 <template>
 	<div class="banner">
-		<el-carousel :interval="4000" type="card" height="447px">
+		<el-carousel :interval="4000" type="card" height="447px" indicator-position="none">
 			<el-carousel-item v-for="item in 6" :key="item">
 			</el-carousel-item>
 		</el-carousel>

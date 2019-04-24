@@ -54,12 +54,18 @@
 				<ul>
 					<li>
 						<img src="@/assets/separate/1-2.png" alt="">
+						<span>查看详情</span>
+						<p><b>￥240/晚</b></p>
 					</li>
 					<li>
 						<img src="@/assets/separate/2-2.png" alt="">
+						<span>查看详情</span>
+						<p><b>￥240/晚</b></p>
 					</li>
 					<li>
 						<img src="@/assets/separate/3-2.png" alt="">
+						<span>查看详情</span>
+						<p><b>￥240/晚</b></p>
 					</li>
 				</ul>
 			</div>
