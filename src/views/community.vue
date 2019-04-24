@@ -77,53 +77,52 @@ li{
 }
 /*导航栏*/
 .nav{
-    width: 100%;
-    height: 80px;
-    background:#ea614a;
-}
-.nav .nav-c{
-    width: 1210px;
-    height: 80px;
-    margin: 0 auto;
-}
-.nav .nav-c .logo{
-    float: left;
-	padding-top:20px;
-}
-.nav .nav-c .logo img{
-	width:200px ;
-	height: 45px;
-}
-.nav .nav-c .list{
-    width: 670px;
-    height: 80px;
-    line-height: 80px;
-	margin-left:290px;
-}
-.nav .nav-c .list ul li{
-    float: left;
-	width: 126px;
-	height: 80px;
-}
-.nav .nav-c .list ul li a{
-    display: inline-block;
-    width: 126px;
-    height: 80px;
-    line-height: 80px;
-    color: #fff;
-    font-size: 22px;
-    text-align: center;
-}
-.nav .nav-c .list ul li a:hover{
-	background:#fff;
-	color:#fa0f0f;
-}
-
+	    width: 100%;
+	    height: 60px;
+	    background:#ea614a;
+	}
+	.nav .nav-c{
+	    width: 1210px;
+	    height: 60px;
+	    margin: 0 auto;
+	}
+	.nav .nav-c .logo{
+	    float: left;
+		padding-top:10px;
+	}
+	.nav .nav-c .logo img{
+		width:200px ;
+		height: 40px;
+	}
+	.nav .nav-c .list{
+	    width: 670px;
+	    height: 60px;
+	    line-height: 60px;
+		margin-left:290px;
+	}
+	.nav .nav-c .list ul li{
+	    float: left;
+		width: 126px;
+		height: 60px;
+	}
+	.nav .nav-c .list ul li a{
+	    display: inline-block;
+	    width: 126px;
+	    height: 60px;
+	    line-height: 60px;
+	    color: #fff;
+	    font-size: 22px;
+	    text-align: center;
+	}
+	.nav .nav-c .list ul li a:hover{
+		background:#fff;
+		color:#fa0f0f;
+	}
 
 /*轮播图*/
 .banner{
 	width: 100%;
-	height: 730px;
+	height: 447px;
 	margin-top:26px;
 	background: #00BFFF;
 }
@@ -176,8 +175,10 @@ li{
 .article .article-c .articlelist ul li{
     width: 350px;
     height: 446px;
-    border: 1px solid #bbb;
-    margin-top: 40px;
+    box-shadow:0 5px 9px 0
+	rgba(98,100,100,.48);
+	border-radius:2px;
+	margin-top: 40px;
     float: left;
     margin-right: 76px;
 	
@@ -186,7 +187,7 @@ li{
     width: 350px;
     height: 232px;
 	margin-bottom:12px;
-    background: springgreen;
+	margin-top:0;
 }
 .article .article-c .articlelist ul li .pic img{
 	width: 350px;
@@ -223,7 +224,7 @@ li{
 .article .article-c .articlelist ul li p{
     width: 246px;
     height: 68px;
-    margin:10px 0 0 28px;
+    margin:20px 0 0 28px;
     font-size: 12px;
     color: #000;
     line-height: 24px;
@@ -235,7 +236,7 @@ li{
     font-size: 12px;
     line-height: 22px;
     text-align: center;
-    margin:20px 0 0 28px;
+    margin:30px 0 0 28px;
 }
 
 

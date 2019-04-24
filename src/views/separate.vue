@@ -2,28 +2,25 @@
 	<div>
 		<sepTop></sepTop>
 		<sepNav></sepNav>
-		<sepPic></sepPic>
 		<sepReview></sepReview>
 		<sepTourism></sepTourism>
-		<sepFooter></sepFooter>
+		<tenFooter></tenFooter>
 	</div>
 </template>
 
 <script>
 	import sepTop from "@/components/separate_article/sepTop.vue"
 	import sepNav from "@/components/separate_article/sepNav.vue"
-	import sepPic from "@/components/separate_article/sepPic.vue"
 	import sepReview from "@/components/separate_article/sepReview.vue"
 	import sepTourism from "@/components/separate_article/sepTourism.vue"
-	import sepFooter from "@/components/common/sepFooter.vue"
+	import tenFooter from "@/components/common/tenFooter.vue"
 	export default{
 		components:{
 			sepTop,
 			sepNav,
-			sepPic,
 			sepReview,
 			sepTourism,
-			sepFooter
+			tenFooter
 		}
 	}
 </script>
@@ -79,35 +76,38 @@
 	/*导航栏*/
 	.nav{
 	    width: 100%;
-	    height: 80px;
+	    height: 60px;
 	    background:#ea614a;
 	}
 	.nav .nav-c{
 	    width: 1210px;
-	    height: 80px;
+	    height: 60px;
 	    margin: 0 auto;
 	}
 	.nav .nav-c .logo{
 	    float: left;
 		padding-top:10px;
-		padding-right:80px;
+	}
+	.nav .nav-c .logo img{
+		width:200px ;
+		height: 40px;
 	}
 	.nav .nav-c .list{
 	    width: 670px;
-	    height: 80px;
-	    line-height: 80px;
+	    height: 60px;
+	    line-height: 60px;
 		margin-left:290px;
 	}
 	.nav .nav-c .list ul li{
 	    float: left;
 		width: 126px;
-		height: 80px;
+		height: 60px;
 	}
 	.nav .nav-c .list ul li a{
 	    display: inline-block;
 	    width: 126px;
-	    height: 80px;
-	    line-height: 80px;
+	    height: 60px;
+	    line-height: 60px;
 	    color: #fff;
 	    font-size: 22px;
 	    text-align: center;
@@ -116,55 +116,62 @@
 		background:#fff;
 		color:#fa0f0f;
 	}
-	/*pic*/
-	.pic{
-	    width: 100%;
-	    margin-top: 20px;
-	}
-	.pic .pic-c{
-	    width: 1120px;
-	    height: 380px;
-	    margin: 0 auto;
-	    background: #e8e8e8;
-	}
+	
+		
 	/*评论区*/
 	.review{
 	    width: 1120px;
 	    margin: 24px auto 0 auto;
+		box-shadow:0px 5px 9px 0px rgba(98,100,100,0.48);
+		/* overflow: hidden; */
+		position: relative;
 	}
-	.review .pic-small{
+	.review .pic-c{
+	    width: 1120px;
+	    height: 300px;
+	    background: #e8e8e8;
+	}
+	.review .pic-z{
+		width: 86px;
+		height: 86px;
+		position: absolute;
+		margin:-30px 0 0 60px;
+	}
+	.review .pic-z img{
+		width: 86px;
+		height: 86px;
+		border-radius: 50%;
+	}
+	.review .xinxi{
+		width:1120px;
+		height: 60px;
+		line-height: 60px;
+	}
+	.review .xinxi .review-L{
 	    float: left;
-	    width: 45px;
-	    height: 45px;
-	    margin-left: 30px;
-	
+	    padding-left: 160px;
 	}
-	.review .review-L{
+	.review .xinxi .review-L li{
 	    float: left;
-	    padding-left: 20px;
+		margin-right:10px;
+		color: #626464 ;
 	}
-	.review .review-L li{
-	    float: left;
+	.review .xinxi .review-L .col{
+		color: #EA614A;
+		font-size: 30px;
 	}
-	.review .review-L li a{
-	    color: #000;
-	}
-	.review .review-L li span{
-	    display: inline-block;
-	    margin:0 20px;
-	}
-	.review .review-R{
+	.review .xinxi .review-R{
 	    float: right;
 	    margin-right: 40px;
 	}
-	.review .review-R li{
+	.review .xinxi .review-R li{
 	    float: left;
 	}
-	.review .review-R li a{
+	.review .xinxi .review-R li a{
 	    color: #000;
 	    padding-left: 30px;
 	}
-	.review .review-R li span{
+	.review .xinxi .review-R li span{
 	    display: inline-block;
 	    margin:0 10px;
 	}

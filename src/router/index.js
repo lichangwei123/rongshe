@@ -12,6 +12,7 @@ import tenant from '@/views/tenant.vue'
 import resetpassword from '@/views/resetpassword.vue'
 import lordregisterknow from '@/views/lordregisterknow.vue'
 import separate from '@/views/separate.vue'
+import published from '@/views/published.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -33,6 +34,11 @@ export default new Router({
       name: 'separate',
       component: separate
     },
+		{
+		  path: '/published',
+		  name: 'publishes',
+		  component: published
+		},
 		{
 		  path: '/lordregisterknow',
 		  name: 'lordregisterknow',

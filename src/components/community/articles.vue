@@ -5,9 +5,9 @@
 				<div class="title-L"><a href="#">精选文章</a></div>
 				<div class="title-R"><a href="#">发表文章</a></div>
 			</div>
-			<div class="articlelist">
+			<div class="articlelist" >
 				<ul>
-					<li>
+					<li v-model="articleList">
 						<div class="pic"><img src="@/assets/community/201805211555119684_369_232.jpg" alt=""></div>
 						<div class="tit">
 							<div class="small-pic"><img src="@/assets/community/201810071902355399.jpg" alt=""></div>
@@ -97,7 +97,19 @@
 
 <script>
 	export default {
-		name: "articles"
+		name: "articles",
+		data(){
+			return{
+				articleList:[
+					{
+						imgPic:("@/assets/community/201805211555119684_369_232.jpg"),
+						name:"塞舌尔普拉兰岛上三处绝美的海滩",
+						content:"塞舌尔普拉兰岛上三处绝美的海滩塞舌尔普拉兰岛上三处绝美的海滩塞舌尔普拉兰岛上三处绝美的海滩",
+						
+					}
+				]
+			}
+		}
 	}
 </script>
 

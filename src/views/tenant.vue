@@ -80,47 +80,47 @@ li{
 }
 /*导航栏*/
 .nav{
-    width: 100%;
-    height: 80px;
-    background:#ea614a;
-}
-.nav .nav-c{
-    width: 1210px;
-    height: 80px;
-    margin: 0 auto;
-}
-.nav .nav-c .logo{
-    float: left;
-	padding-top:20px;
-}
-.nav .nav-c .logo img{
-	width:200px ;
-	height: 45px;
-}
-.nav .nav-c .list{
-    width: 670px;
-    height: 80px;
-    line-height: 80px;
-	margin-left:290px;
-}
-.nav .nav-c .list ul li{
-    float: left;
-	width: 126px;
-	height: 80px;
-}
-.nav .nav-c .list ul li a{
-    display: inline-block;
-    width: 126px;
-    height: 80px;
-    line-height: 80px;
-    color: #fff;
-    font-size: 22px;
-    text-align: center;
-}
-.nav .nav-c .list ul li a:hover{
-	background:#fff;
-	color:#fa0f0f;
-}
+	    width: 100%;
+	    height: 60px;
+	    background:#ea614a;
+	}
+	.nav .nav-c{
+	    width: 1210px;
+	    height: 60px;
+	    margin: 0 auto;
+	}
+	.nav .nav-c .logo{
+	    float: left;
+		padding-top:10px;
+	}
+	.nav .nav-c .logo img{
+		width:200px ;
+		height: 40px;
+	}
+	.nav .nav-c .list{
+	    width: 670px;
+	    height: 60px;
+	    line-height: 60px;
+		margin-left:290px;
+	}
+	.nav .nav-c .list ul li{
+	    float: left;
+		width: 126px;
+		height: 60px;
+	}
+	.nav .nav-c .list ul li a{
+	    display: inline-block;
+	    width: 126px;
+	    height: 60px;
+	    line-height: 60px;
+	    color: #fff;
+	    font-size: 22px;
+	    text-align: center;
+	}
+	.nav .nav-c .list ul li a:hover{
+		background:#fff;
+		color:#fa0f0f;
+	}
 
 /*租客图片*/
 .message{

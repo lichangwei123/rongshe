@@ -7,19 +7,19 @@
 					<ul>
 						<li>
 							<p>世界上拥有岛屿最多的国家，第一位是芬兰，大概有17,9万个大小岛屿组成；第二位是挪威，大概有15万个岛屿组成。而非洲岛国塞舌尔，仅有115个岛屿组成，但塞舌尔却有三个海滩，进入世界排位前十名的著名海滩名单中。其中普拉兰岛上的拉齐奥海滩，就被国家地理排名为世界第二位。</p>
-							<div class="pic-big"><img src="img/1%20(8).png" ></div>
+							<div class="pic-big"><img src="@/assets/separate/4-2.png" ></div>
 						</li>
 						<li>
 							<p>世界上拥有岛屿最多的国家，第一位是芬兰，大概有17,9万个大小岛屿组成；第二位是挪威，大概有15万个岛屿组成。而非洲岛国塞舌尔，仅有115个岛屿组成，但塞舌尔却有三个海滩，进入世界排位前十名的著名海滩名单中。其中普拉兰岛上的拉齐奥海滩，就被国家地理排名为世界第二位。</p>
-							<div class="pic-big"><img src="img/1%20(9).png" ></div>
+							<div class="pic-big"><img src="@/assets/separate/5-1.png" ></div>
 						</li>
 						<li>
 							<p>世界上拥有岛屿最多的国家，第一位是芬兰，大概有17,9万个大小岛屿组成；第二位是挪威，大概有15万个岛屿组成。而非洲岛国塞舌尔，仅有115个岛屿组成，但塞舌尔却有三个海滩，进入世界排位前十名的著名海滩名单中。其中普拉兰岛上的拉齐奥海滩，就被国家地理排名为世界第二位。</p>
-							<div class="pic-big"><img src="img/1%20(11).png" ></div>
+							<div class="pic-big"><img src="@/assets/separate/6-2.png" ></div>
 						</li>
 						<li>
 							<p>世界上拥有岛屿最多的国家，第一位是芬兰，大概有17,9万个大小岛屿组成；第二位是挪威，大概有15万个岛屿组成。而非洲岛国塞舌尔，仅有115个岛屿组成，但塞舌尔却有三个海滩，进入世界排位前十名的著名海滩名单中。其中普拉兰岛上的拉齐奥海滩，就被国家地理排名为世界第二位。</p>
-							<div class="pic-big"><img src="img/1%20(14).png" ></div>
+							<div class="pic-big"><img src="@/assets/separate/7-2.png" ></div>
 						</li>
 					
 					</ul>
@@ -53,13 +53,13 @@
 				<h3>推荐公寓</h3>
 				<ul>
 					<li>
-						<img src="img/1%20(4).png" alt="">
+						<img src="@/assets/separate/1-2.png" alt="">
 					</li>
 					<li>
-						<img src="img/1%20(2).png" alt="">
+						<img src="@/assets/separate/2-2.png" alt="">
 					</li>
 					<li>
-						<img src="img/1%20(6).png" alt="">
+						<img src="@/assets/separate/3-2.png" alt="">
 					</li>
 				</ul>
 			</div>
